@@ -20,12 +20,12 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner banner banner"
-  "col1 col2 col2";
+    "banner banner banner"
+    "col1 col2 col2";
   gap: .75em;
 }
 
-.banner{
+.banner {
   grid-area: banner;
 }
 
@@ -35,6 +35,7 @@ main {
   color: #fff;
   padding: 1.5rem 1rem;
 }
+
 .banner-text h2 {
   margin-bottom: 0;
 }
@@ -79,12 +80,12 @@ figcaption {
 
 dl {
   margin: 0;
-  }
+}
 
-  dt {
-    font-style: italic;
-  }
+dt {
+  font-style: italic;
+}
 
-  dd {
-    margin-left: 1rem;
-  }
+dd {
+  margin-left: 1rem;
+}
