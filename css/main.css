@@ -17,12 +17,12 @@ body {
 }
 
 main {
-  display grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "banner banner banner"
-  "col1 col2 col2"
-  gapr: 75em;
+  "col1 col2 col2";
+  gap: .75em;
 }
 
 .banner{
@@ -62,7 +62,7 @@ header {
 }
 
 p {
-  margin: 0 0 1.5 rem;
+  margin: 0 0 1.5rem;
 }
 
 figure {
